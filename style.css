@@ -115,8 +115,10 @@ footer {
   display: flex;
   gap: 10px;
   position: relative;
-  top: -112px;
-  left: 90px;
+  /* top: -112px;
+  left: 90px; */
+  margin-left: 82px;
+  margin-top: 10px;
 }
 .home-loan-btn {
   display: flex;
@@ -132,6 +134,19 @@ footer {
   position: relative;
   top: 40px;
   left: 570px;
+}
+ul li:hover {
+  color: rgb(228, 14, 218);
+  cursor: pointer;
+}
+
+.loan-btn:hover {
+  box-shadow: 8px 8px 8px 8px rgb(164, 162, 162);
+  cursor: pointer;
+}
+.home-loan-btn:hover {
+  box-shadow: 8px 8px 8px 8px rgb(164, 162, 162);
+  cursor: pointer;
 }
 
 /* Adding media query for small screen */
